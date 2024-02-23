@@ -3,7 +3,6 @@ import "./home.css";
 import product9 from "../../assets/products/images.png";
 import product5 from "../../assets/products/5.png";
 import product6 from "../../assets/products/6.jpeg";
-import product8 from "../../assets/products/9.png";
 import product1 from "../../assets/products/pic1.jpeg";
 import product2 from "../../assets/products/pic2.jpeg";
 import product3 from "../../assets/products/pic3.jpeg";
@@ -54,7 +53,7 @@ export const Contact = () => {
           <p className="title2"> Attractions </p>
           <p className="attrac-desc">
             Explore the resplendent Amber Fort, an architectural masterpiece adorned with intricate carvings and breathtaking views, and wander through the bustling lanes of the UNESCO-listed Jantar Mantar, an ancient astronomical observatory, in Jaipur's captivating tapestry of heritage.</p>
-            <a ><button class="Bttn-3">VISIT NOW</button></a>
+            <Link to="/attrac"><button class="Bttn-3">VISIT NOW</button></Link>
         </div>
 </div>
 
@@ -83,7 +82,7 @@ Where history whispers tales amidst colors and flavors, setting hearts ablaze !<
       </section>
       <footer className="foot1">
       <div className="wrapper">
-      <Link to="/">
+      <Link to="/attrac">
         <button className="see-more-button">SEE MORE &rarr; </button>
       </Link>
       </div>
